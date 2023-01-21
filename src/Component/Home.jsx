@@ -20,9 +20,7 @@ export default class Home extends Component {
         const newaarr = this.state.Emps;
         newaarr.push(obj);
         this.setState({Emps:newaarr})
-        this.state.Name = ''
-        this.state.Department = ''
-        this.state.Rating = ''
+        this.setState({Name : '',Department : '',Rating : ''})
     }
     
 
